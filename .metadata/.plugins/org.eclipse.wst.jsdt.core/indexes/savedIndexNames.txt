@@ -1,0 +1,9 @@
+INDEX VERSION 1.4+C:\BCLEFinal\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+624968492.index
+1401981363.index
+226241269.index
+1854505192.index
+171740767.index
+317631381.index
+3283044523.index
+1004068949.index

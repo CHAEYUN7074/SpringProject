@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>B:CLE</title>
+<!-- <link rel="stylesheet" href="css/main.css"> -->
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+	crossorigin="anonymous">
+
+<style>
+@import
+	url('https://fonts.googleapis.com/css?family=Exo+2|Noto+Sans+KR&display=swap')
+	;
+body {font-family: 'Noto Sans KR', sans-serif; font-size: 14px;}
+
+
+.form_upper {
+	margin: 10vh 30vh 0vh 30vh;
+	position: fix;
+	height: 60%;
+	display: flex;
+	border: 3px solid orange;
+	border-radius: 10px;
+}
+
+
+.firstinfo {
+	height: 80%;
+	width: 50%;
+	padding : 5vh;
+}
+
+.secondinfo {
+padding : 5vh;
+}
+
+.info {
+	display: flex;
+}
+
+.input_info {
+	border: 1px solid black;
+}
+
+.enroll{
+	margin-top: 3vh;
+margin-left: 30%;
+margin-right: auto;
+}
+
+
+
+.form_upper p{
+font-size: 16px;
+font-weight:bold;
+}
+
+
+</style>
+<body>
+	<div class="form_upper">
+		<div class="firstinfo">
+<div class="row mb-3">
+  <label for="colFormLabel" class="col-sm-2 col-form-label">동아리장</label>
+  <div class="col-sm-10">
+    <input type="email" class="form-control" id="colFormLabel" placeholder="col-form-label">
+  </div>
+  <p></p>
+    <label for="colFormLabel" class="col-sm-2 col-form-label">카테고리</label>
+  <div class="col-sm-10">
+    <input type="email" class="form-control" id="colFormLabel" placeholder="col-form-label">
+  </div>
+    <p></p>
+    <label for="colFormLabel" class="col-sm-2 col-form-label">최대인원</label>
+  <div class="col-sm-10">
+    <input type="email" class="form-control" id="colFormLabel" placeholder="col-form-label">
+  </div>
+    <p style="font-size: 9px;">*가입 최대 인원은 200명으로 제한되어 있습니다.</p>
+    <label for="colFormLabel" class="col-sm-2 col-form-label">개설예정</label>
+  <div class="col-sm-10">
+    <input type="email" class="form-control" id="colFormLabel" placeholder="col-form-label">
+  </div>
+    <p></p>
+    <label for="colFormLabel" class="col-sm-2 col-form-label">지역</label>
+  <div class="col-sm-10">
+    <input type="email" class="form-control" id="colFormLabel" placeholder="col-form-label">
+  </div>
+</div>
+
+		</div>
+
+		<div class="secondinfo">
+
+				<p>소개해주세요</p>
+		<textarea cols="40" rows="5" >
+            내용을 입력하세요
+        </textarea>
+
+		<form method="post" enctype="multipart/form-data">
+		<span id=upload class="btn1">
+			<label for="chooseFile"> 👉 이미지 선택하기 </label>
+		</span>
+		<input type="file" id="chooseFile" name="chooseFile" accept="image/*"
+			onchange="loadFile(this)">
+	</form>
+
+	<div class="enroll">
+		<button type="button" class="btn btn-warning">등록</button>
+		<button type="button" class="btn btn-secondary">취소</button>
+	</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
